@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rey Evnts</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+
+    <header style="background-color: #dbe4c6;">
+        <nav class="navbar">
+          <img class="logo" src="Images/Logo.png" alt="">
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined"><i class="fa-solid fa-xmark"></i></span>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+      </header>
+
+      <script>
+        const header = document.querySelector("header");
+        const hamburgerBtn = document.querySelector("#hamburger-btn");
+        const closeMenuBtn = document.querySelector("#close-menu-btn");
+  
+        // Toggle mobile menu on hamburger button click
+        hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+  
+        // Close mobile menu on close button click
+        closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+      </script>
+
+      <section>
+        <div class="tag">
+          <div class="tag-line">
+            <p>A majestic way to frame your dream event.</p>
+            <h1 style="color: #ad7f2c;">El Rey Events</h1>
+            <p>A Professional Wedding Planner And Event Management Based Out Of The Majestic City Of Lakes, Udaipur</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="galleryy">
+          <div class="gallery">
+            <img src="Images/Image1.jpg" alt="image1">
+            <img src="Images/Image2.jpg" alt="image2">
+            <img src="Images/Image3.jpg" alt="image3">
+            <img src="Images/Image8.jpg" alt="image4">
+            <img src="Images/Image5.jpg" alt="image5">
+            <img src="Images/Image6.jpg" alt="image6">
+            <img src="Images/Image7.jpg" alt="image7">
+            <img src="Images/Image8.jpg" alt="image8">
+          </div>
+          <button>
+            <a href="Gallery.html">Visit Gallery</a>
+          </button>
+        </div>
+      </section>
+      
+      <section>
+        <div class="video1">
+          <div class="v1">
+            <h2>Video Gallery</h2>
+            <p>A professional wedding planners & event management company based out of the majestic city of lakes, Udaipur.</p>
+            <div class="video-gallery">
+                <video class="video" controls>
+                <source src="Videos/V1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                <video class="video" controls>
+                <source src="Videos/V2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+              </div>
+          </div>
+          <button>More Videos</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="over">
+          <div>
+            <h2>Trusted By Over 60+ Clients <br> & 300+ Cups Of Coffee Since 2017</h2>
+          </div>
+          <div style="display: flex;">
+            <div style="padding: 10px;">
+              <h1 style="color: #ad7f2c; text-align: center;">98</h1>
+              <p>Successful Weddings</p>
+            </div>
+            <div style="padding: 10px">
+              <h1 style="color: #ad7f2c; text-align: center;">6+</h1>
+              <p>Years Of Experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+      <div class="story">
+        <div>
+          <h3>MILLION STORIES TO TELL</h3> 
+          <p>Step into a World of Spectacular Love Stories: Witness Real Weddings Crafted by Our Expert Hands. Get Inspired by Unforgettable Celebrations and Discover the Magic We Bring to Every Dream Wedding</p>
+        </div>
+        <div class="wedding">
+            <div class="wedding1">
+            <img src="Images/Nikhil & Priyanka.jpg" alt="image1">
+            <h2>Nikhil & Priyanka</h2>
+          </div>
+          <div class="wedding1">
+            <img src="Images/Priyal & Ashutosh.JPG" alt="image2">
+            <h2>Priyal & Ashutosh</h2>
+          </div>
+          <div class="wedding1">
+            <img src="Images/Ranjeet & Anidhya.jpg" alt="image3">
+            <h2>Ranjeet & Anidhya</h2>
+          </div>
+          <div class="wedding1">
+            <img src="Images/VIjay & Ankita.JPG" alt="image4">
+            <h2>VIjay & Ankita</h2>
+          </div>
+        </div>
+        <button><a href="Gallery.html">More Real Weddings</a></button>
+      </div>
+    </section>
+
+    <section>
+      <div class="responsblity">
+      <p>BEST WEDDING PLANNER IN UDAIPUR, AT YOUR SERVICE</p>
+      <h2>Looking For The Best Wedding Planner In Udaipur? Look No Further</h2>
+      <p>Our search for the best wedding planner in Udaipur ends here. A warm welcome to  el rey events – A professional wedding planners & event management company based out of the majestic city of lakes, Udaipur; offering top-notch wedding planning and management services. A witness to over 80+ grand wedding celebrations widespread over all popular wedding destinations of Udaipur,  el rey events is best known for its customer satisfaction and sheer perfection. As an adept and leading wedding planners from Udaipur, el rey events has all the answers to the worst of your wedding preparations related nightmares. Our clients being our topmost priority, there is nothing we leave unturned to make your wedding the most grand affair, ensuring just happy faces and happier praises.</p>
+      <p style="font-family: 'Brush Script MT', cursive; color: #ad7f2c; font-size: 25px; text-align: center;">Your Wedding, Our Responsibility</p>
+      <button>Know More</button> 
+      </div>
+    </section>
+      
+    <section>
+      <div class="about">
+        <div class="about1">
+          <h1 style="text-align: center;">About Us – El Rey Events</h1>
+          <p>Welcome to el rey events your premier wedding planner! We are dedicated to creating unforgettable wedding experiences in breathtaking locations around the Udaipur. With our expertise, creativity, and attention to detail, we transform dreams into reality for couples seeking the perfect wedding.
+            At  el rey events we understand that your wedding day is one of the most important moments in your life. That’s why we specialize in curating unique and personalized weddings that reflect your individual style, personality, and love story. Whether you envision an intimate beach ceremony, a grand mountaintop celebration, or a romantic vineyard affair, we bring your vision to life with precision and flair.
+             el rey events started in 2017 and we believe that every couple deserves a wedding that surpasses their wildest dreams. We strive to create magical moments, weaving together exquisite details and enchanting locations to craft a wedding day that will be cherished forever. Let us be your trusted guide on this incredible journey, and together, we will create memories to last a lifetime.
+            Contact us today to begin your extraordinary wedding adventure</p>
+            <button><a href="about.html">Read More</a></button>
+        </div>
+        <div>
+          <img src="Images/Image.jpg" alt="#">
+        </div>
+      </div>
+    </section>
+      
+    <section>
+      <div class="servicess">
+        <div class="services">
+          <div class="service">
+            <img src="Service/logistics.png" alt="#">
+            <h3>LOGISTIC</h3>
+            <p style="text-align: center;">In terms of logistics, our experts will assist you in determining the necessary transportation facilities for all of your visitors based on your budget and preferences. We ensure that your guests arrive on time and that our transportation services are absolutely on schedule. We'll make sure your event goes off without a hitch and as seamlessly as possible.</p>
+          </div>
+          <div class="service">
+            <img src="Service/wedding-arch.png" alt="#">
+            <h3>DECOR MANAGEMENT</h3>
+            <p style="text-align: center;">We know décor has the power to define your wedding and to reveal your personality and preferences, we create decor that reflects your ideas and preferences while remaining minimal and imaginative. Our decor experts specialize in designing, managing, and creating beautiful and elegant weddings. We provide our clients with innovative designs for weddings.</p>
+          </div>
+          <div class="service">
+            <img src="Service/confetti.png" alt="#">
+            <h3>ENTERTAINMENT</h3>
+            <p style="text-align: center;">We all deserve a little entertainment at our wedding, but not everyone defines entertainment the same way, so whether it's live music, a DJ night, or a refined opera, we provide a variety of options. We offer professional DJs and bands for your wedding day. We have the perfect entertainment for your event.</p>
+          </div>
+        </div>
+        <button>
+          <a href="services.html">Read More</a>
+        </button>
+      </div>
+    </section>
+    <footer>
+      <div class="icons">
+        <img src="Images/Logo.png" alt="#">
+        <p style="font-family: 'Brush Script MT', cursive; color: #ad7f2c; font-size: 30px;">El Rey Events</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/el_rey_events/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> </a>
+          <a href="https://www.facebook.com/elreyevents28/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.youtube.com/channel/UCqwiOZmzg7nKMnzg_PNoG4Q" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      </div>
+  </footer>
+</body>
+</html>

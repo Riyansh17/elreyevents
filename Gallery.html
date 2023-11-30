@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rey Evnts</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="slid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+
+    <header style="background-color: #dbe4c6;">
+        <nav class="navbar">
+          <img class="logo" src="Images/Logo.png" alt="">
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined"><i class="fa-solid fa-xmark"></i></span>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+      </header>
+
+      <script>
+        const header = document.querySelector("header");
+        const hamburgerBtn = document.querySelector("#hamburger-btn");
+        const closeMenuBtn = document.querySelector("#close-menu-btn");
+  
+        // Toggle mobile menu on hamburger button click
+        hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+  
+        // Close mobile menu on close button click
+        closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+      </script>
+      <section style="background: url(Images/backgorund.jpg);">
+        <h1 style="color: #fff; text-align: center;">Gallery Of Happiness</h1>
+      </section>
+      <section> 
+        <h1 style="text-align: center;">Memorable Movemests</h1>
+        <br>
+        <div class="galleryy">
+          <div class="gallery">
+            <img src="Images/Image11.jpg" alt="image1">
+            <img src="Images/Image10.jpg" alt="image2">
+            <img src="Images/Image.jpg" alt="image3">
+            <img src="Images/Image8.jpg" alt="image4">
+            <img src="Images/Image13.jpg" alt="image5">
+            <img src="Images/Image12.jpg" alt="image6">
+            <img src="Images/Image30.jpg" alt="image7">
+            <img src="Images/Image42.jpg" alt="image8">
+            <img src="Images/Image44.jpg" alt="image8">
+            <img src="Images/Image46.jpg" alt="image8">
+          </div>
+        </div>
+      </section>
+      <section>           <!--slideshow-->
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="Images/Image10.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="Images/Image11.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="Images/Image12.jpg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="Images/Image13.jpg" alt="Image 3">
+            </div>
+        </div>
+        <script src="slide.js"></script>
+    </section>
+    <section> 
+      <h1 style="text-align: center;">Wedding Decoration</h1>
+      <br>
+      <div class="galleryy">
+        <div class="gallery">
+          <img src="Images/Image1.jpg" alt="image1">
+          <img src="Images/Image2.jpg" alt="image2">
+          <img src="Images/Image3.jpg" alt="image3">
+          <img src="Images/Image8.jpg" alt="image4">
+          <img src="Images/Image5.jpg" alt="image5">
+          <img src="Images/Image6.jpg" alt="image6">
+          <img src="Images/Image7.jpg" alt="image7">
+          <img src="Images/Image8.jpg" alt="image8">
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="icons">
+        <img src="Images/Logo.png" alt="#">
+        <p style="font-family: 'Brush Script MT', cursive; color: #ad7f2c; font-size: 30px;">El Rey Events</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/el_rey_events/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> </a>
+          <a href="https://www.facebook.com/elreyevents28/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      </div>
+  </footer>
+</body>
+</html>

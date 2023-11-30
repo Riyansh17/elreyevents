@@ -1,0 +1,164 @@
+@media (max-width: 1400px){
+    .service {
+        width:100%;
+    }
+}
+@media (max-width: 1100px){
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .service {
+        width:100%;
+    }
+    .over{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .gallery {
+        display: grid;
+        padding: 16px;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 20px;
+        padding: 16px;
+    }
+    .gallery img {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 800px){
+    section{
+        padding: 15px;
+        background-color: #f1f5e9;
+    }
+    h1{
+        line-height: 50px;
+        text-align: left;
+    }
+    h2{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        line-height: 25px;
+    }
+    .about1 p{
+        line-height: 25px;
+    }
+    .tag{
+        text-align: center;
+        margin: 0px 15px;
+    }
+    .tag h1{
+        font-size: 25px;
+    }
+    .tag p{
+        font-size: 12.5px;
+        text-align: left;
+    }
+    .gallery {
+        display: grid;
+        padding: 16px;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 20px;
+        padding: 16px;
+    }
+    .gallery img {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    
+    .video1{
+        text-align: center;
+    }
+    .video-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .video {
+        margin: 20px;
+        width: 300px; 
+        height: auto;
+        border-radius: 20px;
+    }
+    
+    .over{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .story{
+        text-align: center;
+    }
+    
+    .wedding{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 25px;
+    }
+    
+    .wedding1 img{
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    
+    .responsblity{
+        text-align: center;
+    }
+
+    .responsblity h2{
+        font-size: 21px;
+        line-height: 26px;
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .about img{
+        margin-left: 0;
+        height: 400px;
+        width: auto;
+        border-radius: 20px;
+    }
+    
+    .servicess{
+        text-align: center;
+    }
+    
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .service {
+        width:100%;
+    }
+
+    .service p{
+        line-height: 25px;
+    }
+    
+    .services img{
+        width: auto;
+        height: 100px;
+        border-radius: 10px;
+    }
+
+}

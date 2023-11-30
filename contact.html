@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rey Evnts</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+
+    <header style="background-color: #dbe4c6;">
+        <nav class="navbar">
+          <img class="logo" src="Images/Logo.png" alt="#">
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined"><i class="fa-solid fa-xmark"></i></span>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+      </header>
+
+      <script>
+        const header = document.querySelector("header");
+        const hamburgerBtn = document.querySelector("#hamburger-btn");
+        const closeMenuBtn = document.querySelector("#close-menu-btn");
+  
+        // Toggle mobile menu on hamburger button click
+        hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+  
+        // Close mobile menu on close button click
+        closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+      </script>
+
+        <section style="background: url(Images/backgorund.jpg);">
+            <h1 style="color: #fff;">Contact-us</h1>
+        </section>
+        <section>
+    <script>
+        function validateForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill in all fields.');
+                return false;
+            }
+            alert('Form submitted:\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+            return true;
+        }
+    </script>
+
+
+    <div class="contact-section">
+        <form onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <div class="contact-details">
+            <h3>Contact Details</h3>
+            <p><strong><i class="fa-solid fa-phone"></i>Phone:</strong> +917597457704</p>
+            <p><strong><i class="fa-regular fa-envelope"></i>Email:</strong> elreyevents28@gmail.com</p>
+            <p><strong><i class="fa-regular fa-clock"></i>Time:</strong>Monday to saturday <br>10:00AM - 06:00PM</p>
+        </div>
+    </div>
+</body>
+</html>
+
+        </section>
+        <footer>
+            <div class="icons">
+            <img src="Images/Logo.png" alt="#">
+            <p style="font-family: 'Brush Script MT', cursive; color: #ad7f2c; font-size: 30px;">El Rey Events</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/el_rey_events/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> </a>
+                <a href="https://www.facebook.com/elreyevents28/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            </div>
+        </footer>
+    </body>
+    </html>

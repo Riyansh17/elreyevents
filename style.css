@@ -1,0 +1,119 @@
+*{
+    line-height: 50px;
+}
+section{
+    padding: 50px 100px;
+    background-color: #f1f5e9;
+}
+p{
+    color: #777;
+}
+.tag{
+    text-align: center;
+}
+.tag h1{
+    font-size: 40px;
+}
+
+.galleryy{
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.video1{
+    text-align: center;
+}
+.video-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.video {
+    margin: 20px;
+    width: auto; 
+    height: 250px;
+    border-radius: 20px;
+}
+
+.over{
+    display: flex;
+    justify-content: space-between;
+}
+
+.story{
+    text-align: center;
+}
+
+.wedding{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.wedding1 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.responsblity{
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.about img{
+    margin-left: 25px;
+    height: 500px;
+    width: auto;
+    border-radius: 20px;
+}
+.about1 p{
+    line-height: 30px;
+}
+.servicess{
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ad7f2c;
+    border-radius: 20px;
+    text-align: center;
+}
+.service p{
+    line-height: 33px;
+}
+
+.services img{
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+}
