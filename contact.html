@@ -40,53 +40,40 @@
         <section style="background: url(Images/backgorund.jpg);">
             <h1 style="color: #fff;">Contact-us</h1>
         </section>
-        <section>
-    <script>
-        function validateForm() {
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
+        <script>
+            function validateForm() {
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var message = document.getElementById('message').value;
 
-            if (name === '' || email === '' || message === '') {
-                alert('Please fill in all fields.');
-                return false;
+                if (name === '' || email === '' || message === '') {
+                    alert('Please fill in all fields.');
+                    return false;
+                }
+                alert('Form submitted:\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+                return true;
             }
-            alert('Form submitted:\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
-            return true;
-        }
-    </script>
-
-
-    <div class="contact-section">
-        <form onsubmit="return validateForm()">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-
-        <div class="contact-details">
-            <h3>Contact Details</h3>
-            <p><strong><i class="fa-solid fa-phone"></i>Phone:</strong> +917597457704</p>
-            <p><strong><i class="fa-regular fa-envelope"></i>Email:</strong> elreyevents28@gmail.com</p>
-            <p><strong><i class="fa-regular fa-clock"></i>Time:</strong>Monday to saturday <br>10:00AM - 06:00PM</p>
-        </div>
-    </div>
-</body>
-</html>
-
+        </script>
+        <section>
+            <div class="services">
+                <div class="service">
+                    <i class="fa-solid fa-phone"></i>
+                  <h3>Phone:</h3>
+                  <p>+917597457704</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email:</h3>
+                    <p>elreyevents28@gmail.com</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-clock"></i>
+                  <h3>Time:</h3>
+                  <p>Monday to saturday <br>10:00AM - 06:00PM</p>
+                </div>
+            </div>    
         </section>
+
         <footer>
             <div class="icons">
             <img src="Images/Logo.png" alt="#">
@@ -94,6 +81,7 @@
             <div class="social-icons">
                 <a href="https://www.instagram.com/el_rey_events/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> </a>
                 <a href="https://www.facebook.com/elreyevents28/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCqwiOZmzg7nKMnzg_PNoG4Q" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
             </div>
         </footer>

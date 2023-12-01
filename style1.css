@@ -56,6 +56,11 @@ p{
     height: 100px;
     border-radius: 10px;
 }
+.service i{
+    color: #ad7f2c;
+    font-size: 35px;
+    margin: 20px;
+}
 @media (max-width: 768px){
     section{
         padding: 15px;
@@ -118,51 +123,16 @@ p{
         line-height: 50px;
     }
 }
-
-.contact-section {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.contact-details i{
-    margin-right: 20px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-.form-group button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.contact-details {
-    margin-top: 20px;
-}
-
-.contact-details p {
-    margin: 5px 0;
-}
+.box {
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    border: 1px solid #ad7f2c;
+    border-radius: 10px;
+  }
+  
