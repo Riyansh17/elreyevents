@@ -39,6 +39,10 @@ section{
         border-radius: 10px;
         object-fit: cover;
     }
+    .galleryy a{
+        width: auto;
+        height: 150px;
+    }
 }
 @media (max-width: 1100px){
     .gallery {
@@ -53,5 +57,9 @@ section{
         height: 150px;
         border-radius: 10px;
         object-fit: cover;
+    }
+    .galleryy a{
+        width: auto;
+        height: 150px;
     }
 }

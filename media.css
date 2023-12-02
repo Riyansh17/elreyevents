@@ -33,6 +33,10 @@
         object-fit: cover;
 
     }
+    .galleryy a{
+        width: auto;
+        height: 150px;
+    }
 }
 @media (max-width: 800px){
     section{
@@ -77,6 +81,10 @@
         height: 150px;
         border-radius: 10px;
         object-fit: cover;
+    }
+    .galleryy a{
+        width: auto;
+        height: 150px;
     }
     
     .video1{

@@ -14,11 +14,13 @@ p{
 .tag h1{
     font-size: 40px;
 }
-
 .galleryy{
     text-align: center;
 }
-
+.galleryy a{
+    width: auto;
+    height: 250px;
+}
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
