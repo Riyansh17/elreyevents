@@ -111,6 +111,10 @@ p{
     .service {
         width:100%;
     }
+    .image-box img{
+        width: 100%;
+        border-radius: 0 0 3px 3px;
+      }
 }
 @media (max-width: 1400px){
     .service {
